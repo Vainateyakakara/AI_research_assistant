@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+myen/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# Data
+data/chroma_db/
+data/raw/*.pdf
+
+# Node.js
+client/node_modules/
+client/dist/
+client/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
