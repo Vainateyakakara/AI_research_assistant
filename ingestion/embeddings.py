@@ -27,7 +27,7 @@ class EmbeddingGenerator:
             encode_kwargs={'normalize_embeddings': True}  # Normalize for better similarity
         )
         
-        print("Embedding model loaded")
+        print("Loaded Embedding model")
     
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
         """

@@ -167,7 +167,7 @@ def _llm_rewrite_fn(prompt: str) -> str:
 
 
 # ── Header ─────────────────────────────────────────────────────────────────────
-st.title("🔬 AI Research Assistant")
+st.title("AI Research Assistant 🔬")
 st.caption("Powered by Groq (Llama 3.1) + Google Gemini Pro • 100 % Free")
 
 
